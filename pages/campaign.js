@@ -2,7 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 
 // キャンペーン画像のパス
-const CAMPAIGN_IMAGE = "/images/ecobugcp.JPG";
+const CAMPAIGN_IMAGE = "/images/ecobugcp.jpg";
 
 export default function CampaignPage() {
   const [isApplied, setIsApplied] = useState(false);
